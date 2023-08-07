@@ -1,0 +1,280 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-siting: border-box;
+    font-family:century
+}
+
+header{
+    height: 100px;
+    background-size: center;
+    background-position: center;
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+     .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+    
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+      
+    
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+     .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+    
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+      
+    
+      .dropdown:hover .dropdown-content {
+        display: block;
+      } 
+    
+}
+.y{
+    background-image: url(../asetts/po.jpg);
+    height: 400px;
+
+} 
+.logo a{
+    color:#fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+     text-shadow: rgba(0,0,0,0.7);
+}
+.logo span{
+    color: red (238 56 11);
+    font-weight :bold;
+    font-size:2rem;
+
+}
+ul{ 
+list-style:none;
+float:right;
+display:flex;
+margin-top:20 px;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    margin: 10px;
+    font-weight:500 ;
+    transition: 0,6s ease;
+
+    background-color: #fff;
+    color:black
+}
+
+
+    ul li a:hover{
+        background-color: #fff;
+        color: #000;
+
+}
+ul li.active a{
+    background: #fff;
+    color: black;
+}
+.principale{
+    max-width:114 rem;
+    margin:0 auto;
+}
+
+
+.titre{
+    position:absolute;
+    top:50%;
+    left:50% ;
+    transform: translate(-50% ,-50%);
+}
+.titre h1{
+    color: aliceblue;
+    font-size: 40px;
+}
+.bouton{
+
+ position:absolute;
+    top: 60%;
+    left:50% ;
+    transform: translate(-50% ,-50%);
+}
+.bouton a{
+    color: #fff;
+     text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+
+}
+.btn{
+    transition: 00.6S ease;
+}
+.btn :hover{
+background-color:#fff;
+color: #000;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+     
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .h1{
+
+    font-size: medium;
+    
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+  .bouton{
+    display:flex;
+    justify-content: left;
+
+
+  }
+  section{
+    padding: 100px;
+  }
+  .row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .row.clow {
+    position: relative;
+    width: 48%;
+    justify-content:center ;
+    align-items: center;
+
+  }
+  .ll{
+    background-color: bisque;
+  }
+  .j{
+    background-color: antiquewhite;
+  }
+  .logo{
+    color: aqua;
+    text-decoration: #000;
+  }
+
+  #nos produits{
+    position: center;
+  }
+  .kk{
+    margin: auto;
+    top: right;
+
+  }
+  
+  
+  .column{
+    float: left;
+    width: 33.33%;
+
+  }
+  .row:after{
+    content:"";
+    display: table;
+    clear: both;
+  }
+  .b{
+    margin-top: 30;
+
+  }
+  
+  .imge1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .medrar{
+    display: flex;
+    justify-content:space-between;
+  }
+  .cont1{
+    background-color: #f9f9f9;
+    border-radius: 1000px;
+  }
+  .cont2{
+    background-color: antiquewhite;
+    border-radius: 1000px;
+  }
+  #contact{
+    background-color: beige;
+    text-align: center;
+    color: azure;
+  }
+  .conta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .f{
+    background-color:bisque;
+  }
